@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.rish.collect.mappers.mysql.TTagInfoRtdbMapper">
+  <resultMap id="BaseResultMap" type="top.rish.collect.entitys.mysql.TTagInfoRtdb">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="tag_code_new" jdbcType="VARCHAR" property="tagCodeNew" />
+    <id column="tag_code_old" jdbcType="VARCHAR" property="tagCodeOld" />
+    <result column="tag_desc" jdbcType="VARCHAR" property="tagDesc" />
+    <result column="Lower_limit" jdbcType="INTEGER" property="lowerLimit" />
+    <result column="upper_limit" jdbcType="INTEGER" property="upperLimit" />
+    <result column="tag_unit" jdbcType="VARCHAR" property="tagUnit" />
+  </resultMap>
+</mapper>

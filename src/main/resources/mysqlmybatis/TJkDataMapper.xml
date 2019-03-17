@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.rish.collect.mappers.mysql.TJkDataMapper">
+  <resultMap id="BaseResultMap" type="top.rish.collect.entitys.mysql.TJkData">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="tag_code" jdbcType="VARCHAR" property="tagCode" />
+    <id column="Result_time" jdbcType="TIMESTAMP" property="resultTime" />
+    <result column="sec" jdbcType="INTEGER" property="sec" />
+    <result column="Result_value" jdbcType="DECIMAL" property="resultValue" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="creat_time" jdbcType="TIMESTAMP" property="creatTime" />
+  </resultMap>
+</mapper>
